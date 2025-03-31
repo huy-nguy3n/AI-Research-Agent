@@ -1,6 +1,6 @@
 # AI Research Agent
 
-The **AI Research Agent** is a Python-based research assistant that leverages language models and tools to help users gather information on specific topics. It uses tools like DuckDuckGo Search, Wikipedia, and file-saving utilities to provide structured and actionable research outputs.
+The **AI Research Agent** is a Python-based research assistant that leverages language models and tools to help users gather information on specific topics. It uses tools like DuckDuckGo Search, Wikipedia, and file-saving utilities to provide structured and actionable research outputs. By default, it uses the ChatAnthropic model `claude-3-5-sonnet-20241022`, but you can import and configure any LLM of your choice to suit your needs.
 
 ---
 
@@ -18,7 +18,7 @@ The **AI Research Agent** is a Python-based research assistant that leverages la
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/AI-Research-Agent.git
+    git clone https://github.com/huy-nguy3n/AI-Research-Agent.git
     cd AI-Research-Agent
     ```
 
@@ -35,7 +35,7 @@ The **AI Research Agent** is a Python-based research assistant that leverages la
 
 4. Set up your environment variables:
     - Create a `.env` file in the root directory.
-    - Add any required API keys or configuration settings as key-value pairs.
+    - Add any required API keys for the LLM you want to use.
 
 ---
 
