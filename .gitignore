@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+*.env
+
+# macOS files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Research output files
+research_response.txt
